@@ -1,0 +1,8 @@
+namePrefix: prd-
+commonLabels:
+  env: prd
+resources:
+- ../../base
+patchesStrategicMerge:
+- deployment.yaml
+- service.yaml
