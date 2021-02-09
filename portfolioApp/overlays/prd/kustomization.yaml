@@ -1,7 +1,7 @@
 namePrefix: prd-
 commonLabels:
   env: prd
-resources:
+bases:
 - ../../base
 patchesStrategicMerge:
 - deployment.yaml

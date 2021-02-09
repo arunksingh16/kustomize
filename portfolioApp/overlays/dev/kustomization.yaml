@@ -3,7 +3,7 @@ commonLabels:
   env: dev
 commonAnnotations:
   typeofApp: htmlApp
-resources:
+bases:
 - ../../base
 namespace: kustomize-namespace
 patchesStrategicMerge:
