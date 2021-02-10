@@ -9,3 +9,7 @@ namespace: kustomize-namespace
 patchesStrategicMerge:
 - deployment.yaml
 - service.yaml
+secretGenerator:
+- name: dummy
+  files: 
+  - password.txt
