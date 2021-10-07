@@ -12,6 +12,7 @@ spec:
         volumeMounts:
         - name: dummy
           mountPath: /opt/password.txt
+          subPath: password.txt
       volumes:
         - name: dummy
           secret:
